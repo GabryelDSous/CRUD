@@ -2,7 +2,7 @@ package desafio001;
 
 public enum Sexo {
 
-	MASCULINO("M"), FEMININO("F");
+	MASCULINO("Masculino"), FEMININO("Feminino");
 	
 	private String sexo;
 	Sexo(String sexo){

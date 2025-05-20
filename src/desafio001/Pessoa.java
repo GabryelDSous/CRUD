@@ -25,4 +25,11 @@ public class Pessoa {
 		this.sexo = sexo;
 	}
 	
+	public String toString() {
+		
+		return "----------------------\n" + 
+				"NOME: " + getNome() + 
+				"\nIDADE: " + getIdade() +
+				"\nSEXO: " + getSexo().getSexo();
+	}
 }
